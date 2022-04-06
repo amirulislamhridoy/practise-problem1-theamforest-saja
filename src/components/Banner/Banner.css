@@ -1,0 +1,72 @@
+.banner{
+    /* background: linear-gradient(rgba(19, 0, 0, 0.353), rgba(0, 0, 0, 0.671)), url('../../images/banner.jpg'); */
+    background: url('../../images/banner.jpg');
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+.banner-main{
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    width: 70%;
+    /* margin: 0 auto; */
+    margin-left: 15%;
+    margin-top: 17%;
+}
+.banner-main h1{
+    color: #fff;
+}
+.banner-title{
+    font-size: 80px;
+}
+.banner-heading{
+    font-size: 50px;
+}
+.banner-description{
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner-pages{
+    display: flex;
+    justify-content: center;
+}
+.banner-page{
+    margin: 0 20px;
+}
+.banner-page h3{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.banner-page p{
+    margin-top: 10px;
+}
+.banner-last-icon{
+    font-size: 20px;
+    position: relative;
+    animation-name: hridoy;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.banner-last-icon:hover{
+    color: red;
+}
+@keyframes hridoy{
+    0%{top: 0}
+    100%{top: 25px}
+}

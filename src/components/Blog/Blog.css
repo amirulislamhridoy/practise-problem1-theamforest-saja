@@ -1,0 +1,22 @@
+.blogs{
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, auto-fit, minmax(350px, 1fr));
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;   
+}
+.blog{
+    border: 2px solid rgba(0, 0, 0, 0.418);
+    padding: 20px ;
+    border-radius: 10px;
+    position: relative;
+}
+.blog img{
+    width: 100%;
+    border-radius: 10px;
+}
+.blog span{
+    position: absolute;
+    right: 10%;
+}

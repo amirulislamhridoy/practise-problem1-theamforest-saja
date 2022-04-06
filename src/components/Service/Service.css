@@ -1,0 +1,45 @@
+.service{
+    text-align: center;
+    position: relative;
+}
+.service-banner{
+    background-color: black;
+    color: #fff;
+    height: 550px;
+    display: flex;
+    padding-top: 8%;
+    flex-direction: column;
+}
+.service::after{
+    
+}
+.service-banner h3{
+    font-weight: bold;
+}
+.service-banner h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.service-img-container{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.service-img{
+    margin: 0 20px;
+    margin-bottom: 100px;
+}
+.service-img img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.277);
+}
+.service-img img:hover{
+    position: relative;
+    top: -15px;
+    transition: .5s;
+}
+.service-img h4{
+    margin-top: 20px;
+    font-weight: bold;
+}
